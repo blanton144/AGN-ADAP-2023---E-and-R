@@ -1,0 +1,312 @@
+\documentclass[12pt, preprint]{hacked-aastex}
+\usepackage{titlesec, hyperref, mdwlist, wrapfig, mdframed, enumitem}
+
+\newenvironment{ditemize}
+{ \begin{list}{}{%
+\setlength{\topsep}{0pt}% 
+\setlength{\partopsep}{3pt}% 
+\setlength{\itemsep}{1pt}\setlength{\parsep}{1pt}% 
+\setlength{\itemindent}{0pt}\setlength{\listparindent}{12pt}%
+\setlength{\leftmargin}{24pt}\setlength{\rightmargin}{0in}%
+\setlength{\labelsep}{6pt}\setlength{\labelwidth}{6pt}%
+\renewcommand{\makelabel}{\makebox[\labelwidth][l]{$\bullet$\hspace{\fill}}}}}
+{\end{list}}
+
+\begin{document}
+
+\pagestyle{plain}
+\titlespacing*{\section}{0pt}{0pt}{0.5\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+%\titleformat{\section}{\bfseries}{\thesection.}{1em}{} 
+
+\newcommand{\imtxt}[1]{\textcolor{red}{#1}}
+\newcommand{\imsout}[1]{\textcolor{red}{\sout{#1}}}
+\newcommand{\sersic}{S\'{e}rsic}
+\setlist[itemize]{leftmargin=*}
+
+\title{{\large Characterizing the local population of \\
+mid-infrared-emitting active galactic nuclei}
+\\
+\large Expertise \& Resources --- Not Anonymized} 
+
+\maketitle
+
+\section{Team Members}\label{sec:team}
+
+\begin{itemize}
+\item PI: Michael R. Blanton, Professor, New York University. The 
+PI is an expert in nearby galaxies and modeling their spectral
+energy distributions (SEDs). He will supervise the graduate student
+and contribute to the data analysis, writing, and interpretation.
+\item Graduate Student: Arjun Suresh, Ph.D. student, New York University.
+Suresh will enter his second year of the Ph.D. program in Fall 2023.
+He has experience handling astronomical data and performing likelihood
+analyses.
+\item Undergraduate Student: Aashay Pai, New York University. Pai 
+will enter his senior year in Fall 2023. They are learning how 
+to analyze astronomical data and to develop software.
+\end{itemize}
+
+\clearpage
+\section{Facilities \& Equipment}\label{sec:facilities}
+
+\begin{itemize}
+\item{\textit{Observational Resources}---Participating institution in Sloan Digital Sky Survey V, with full data and publication rights for the PI and their students.}
+\item{\textit{Systems administration}---The Center for Cosmology and Particle Physics (CCPP) has a Ph.D. as its Systems Administrator who assists with scientific computing issues; his responsibilities include management of the Cluster as well as other CCPP computer systems. The Physics Department has two systems administrators who provide backup assistance for research and administrative computing.}
+\item{\textit{Computing hardware}---A high performance computing server room, with liquid-cooled racks and monitoring equipment. Suitable for housing computing resources and with available
+servers.
+A variety of computing resources are available within CCPP and the Physics Department, including UNIX workstations, laser color printers, etc. Computational needs are also supported through the University's Academic Computing Services, which has a variety of computing platforms and scientific software. Consultants are also available to assist in the use of these resources.}
+\item{\textit{Office}---The offices of the PI and other personnel are in the Center for Cosmology and Particle Physics located at New York University.}
+\end{itemize}
+
+\clearpage
+\section{Summary of Personnel \& Work Effort}\label{sec:effort}
+
+\begin{table}[h!]
+\centering
+\caption{Personnel and Work Effort (all project years)\label{table:effort}} 
+%\caption{Table of Work Effort\label{table:effort}} 
+\begin{tabular}{lccc}
+\\
+\hline
+& {\bf Funded Effort} & {\bf Unfunded Effort} & {\bf Total Effort} \\
+{\bf Name \& Role} & {\bf (months / year)} & {\bf (months / year)} 
+& {\bf (months / year)} \\
+\hline
+\hline
+Michael R. Blanton, PI & 1 & 0 & 1 \\
+Arjun Suresh, Grad. Stud. & 12 & 0 & 12 \\
+Aashay Pai, Undergrad. Stud. & 2 & 0 & 2 \\
+\hline
+\end{tabular}
+\end{table}
+
+\clearpage
+\section{Biographical Sketch: Michael R. Blanton}\label{sec:bio}
+
+\vspace{-0.1in}
+\subsection*{\normalsize Professional Preparation:}
+\begin{tabular}{@{}l@{\qquad}l@{\qquad}l}
+Cornell University & Engineering Physics & BS 1995\\
+Princeton University & Astrophysics & PhD 1999\\
+Fermi National Accelerator Laboratory & Astrophysics & 1999--2001\\
+New York University & Astrophysics & 2001--present
+\end{tabular}
+           
+\vspace{-0.1in}
+\subsection*{\normalsize Appointments:}
+\begin{tabular}{@{}l@{\qquad}l@{\qquad}l}
+Professor & Department of Physics & New York University,
+2018--present\\
+Associate Professor & Department of Physics & New York University,
+2011--2018\\
+Assistant Professor & Department of Physics & New York University,
+2005--2011\\
+Research Scientist & Department of Physics & New York University,
+2001--2005\\
+Postdoc & Astrophysics & Fermi National Accelerator Lab, 1999--2001
+\end{tabular}
+
+\vspace{-0.1in}
+\subsection*{\normalsize Five Publications Closely Related to Proposed Project:}
+\begin{ditemize}\setlength{\itemsep}{0pt}
+\item 
+{Blanton}, M.~R., et al.~
+% {Bershady}, M.~A., {Abolfathi}, B., {Albareti},
+  % F.~D., {Allende Prieto}, C., {Almeida}, A., {Alonso-Garc{\'{\i}}a}, J.,
+  % {Anders}, F., {Anderson}, S.~F., {Andrews}, B., {Aquino-Ort{\'{\i}}z}, E.,
+  % {Arag{\'o}n-Salamanca}, A., {Argudo-Fern{\'a}ndez}, M., {Armengaud}, E.,
+  % {Aubourg}, E., {Avila-Reese}, V., {Badenes}, C., {Bailey}, S., {Barger},
+  % K.~A., {Barrera-Ballesteros}, J., {Bartosz}, C., {Bates}, D., {Baumgarten},
+  % F., {Bautista}, J., {Beaton}, R., {Beers}, T.~C., {Belfiore}, F., {Bender},
+  % C.~F., {Berlind}, A.~A., {Bernardi}, M., {Beutler}, F., {Bird}, J.~C.,
+  % {Bizyaev}, D., {Blanc}, G.~A., {Blomqvist}, M., {Bolton}, A.~S., {Boquien},
+  % M., {Borissova}, J., {van den Bosch}, R., {Bovy}, J., {Brandt}, W.~N.,
+  % {Brinkmann}, J., {Brownstein}, J.~R., {Bundy}, K., {Burgasser}, A.~J.,
+  % {Burtin}, E., {Busca}, N.~G., {Cappellari}, M., {Delgado Carigi}, M.~L.,
+  % {Carlberg}, J.~K., {Carnero Rosell}, A., {Carrera}, R., {Chanover}, N.~J.,
+  % {Cherinka}, B., {Cheung}, E., {G{\'o}mez Maqueo Chew}, Y., {Chiappini}, C.,
+  % {Doohyun Choi}, P., {Chojnowski}, D., {Chuang}, C.-H., {Chung}, H.,
+  % {Cirolini}, R.~F., {Clerc}, N., {Cohen}, R.~E., {Comparat}, J., {da Costa},
+  % L., {Cousinou}, M.-C., {Covey}, K., {Crane}, J.~D., {Croft}, R.~A.~C.,
+  % {Cruz-Gonzalez}, I., {Garrido Cuadra}, D., {Cunha}, K., {Damke}, G.~J.,
+  % {Darling}, J., {Davies}, R., {Dawson}, K., {de la Macorra}, A., {Dell'Agli},
+  % F., {De Lee}, N., {Delubac}, T., {Di Mille}, F., {Diamond-Stanic}, A.,
+  % {Cano-D{\'{\i}}az}, M., {Donor}, J., {Jos{\'e} Downes}, J., {Drory}, N., {du
+  % Mas des Bourboux}, H., {Duckworth}, C.~J., {Dwelly}, T., {Dyer}, J.,
+  % {Ebelke}, G., {Eigenbrot}, A.~D., {Eisenstein}, D.~J., {Emsellem}, E.,
+  % {Eracleous}, M., {Escoffier}, S., {Evans}, M.~L., {Fan}, X.,
+  % {Fern{\'a}ndez-Alvar}, E., {Fernandez-Trincado}, J.~G., {Feuillet}, D.~K.,
+  % {Finoguenov}, A., {Fleming}, S.~W., {Font-Ribera}, A., {Fredrickson}, A.,
+  % {Freischlad}, G., {Frinchaboy}, P.~M., {Fuentes}, C.~E., {Galbany}, L.,
+  % {Garcia-Dias}, R., {Garc{\'{\i}}a-Hern{\'a}ndez}, D.~A., {Gaulme}, P.,
+  % {Geisler}, D., {Gelfand}, J.~D., {Gil-Mar{\'{\i}}n}, H., {Gillespie}, B.~A.,
+  % {Goddard}, D., {Gonzalez-Perez}, V., {Grabowski}, K., {Green}, P.~J.,
+  % {Grier}, C.~J., {Gunn}, J.~E., {Guo}, H., {Guy}, J., {Hagen}, A., {Hahn}, C.,
+  % {Hall}, M., {Harding}, P., {Hasselquist}, S., {Hawley}, S.~L., {Hearty}, F.,
+  % {Gonzalez Hern{\'a}ndez}, J.~I., {Ho}, S., {Hogg}, D.~W.,
+  % {Holley-Bockelmann}, K., {Holtzman}, J.~A., {Holzer}, P.~H., {Huehnerhoff},
+  % J., {Hutchinson}, T.~A., {Hwang}, H.~S., {Ibarra-Medel}, H.~J., {da Silva
+  % Ilha}, G., {Ivans}, I.~I., {Ivory}, K., {Jackson}, K., {Jensen}, T.~W.,
+  % {Johnson}, J.~A., {Jones}, A., {J{\"o}nsson}, H., {Jullo}, E., {Kamble}, V.,
+  % {Kinemuchi}, K., {Kirkby}, D., {Kitaura}, F.-S., {Klaene}, M., {Knapp},
+  % G.~R., {Kneib}, J.-P., {Kollmeier}, J.~A., {Lacerna}, I., {Lane}, R.~R.,
+  % {Lang}, D., {Law}, D.~R., {Lazarz}, D., {Lee}, Y., {Le Goff}, J.-M., {Liang},
+  % F.-H., {Li}, C., {Li}, H., {Lian}, J., {Lima}, M., {Lin}, L., {Lin}, Y.-T.,
+  % {Bertran de Lis}, S., {Liu}, C., {de Icaza Lizaola}, M.~A.~C., {Long}, D.,
+  % {Lucatello}, S., {Lundgren}, B., {MacDonald}, N.~K., {Deconto Machado}, A.,
+  % {MacLeod}, C.~L., {Mahadevan}, S., {Geimba Maia}, M.~A., {Maiolino}, R.,
+  % {Majewski}, S.~R., {Malanushenko}, E., {Malanushenko}, V., {Manchado}, A.,
+  % {Mao}, S., {Maraston}, C., {Marques-Chaves}, R., {Masseron}, T., {Masters},
+  % K.~L., {McBride}, C.~K., {McDermid}, R.~M., {McGrath}, B., {McGreer}, I.~D.,
+  % {Medina Pe{\~n}a}, N., {Melendez}, M., {Merloni}, A., {Merrifield}, M.~R.,
+  % {Meszaros}, S., {Meza}, A., {Minchev}, I., {Minniti}, D., {Miyaji}, T.,
+  % {More}, S., {Mulchaey}, J., {M{\"u}ller-S{\'a}nchez}, F., {Muna}, D.,
+  % {Munoz}, R.~R., {Myers}, A.~D., {Nair}, P., {Nandra}, K., {Correa do
+  % Nascimento}, J., {Negrete}, A., {Ness}, M., {Newman}, J.~A., {Nichol}, R.~C.,
+  % {Nidever}, D.~L., {Nitschelm}, C., {Ntelis}, P., {O'Connell}, J.~E.,
+  % {Oelkers}, R.~J., {Oravetz}, A., {Oravetz}, D., {Pace}, Z., {Padilla}, N.,
+  % {Palanque-Delabrouille}, N., {Alonso Palicio}, P., {Pan}, K., {Parejko},
+  % J.~K., {Parikh}, T., {P{\^a}ris}, I., {Park}, C., {Patten}, A.~Y., {Peirani},
+  % S., {Pellejero-Ibanez}, M., {Penny}, S., {Percival}, W.~J., {Perez-Fournon},
+  % I., {Petitjean}, P., {Pieri}, M.~M., {Pinsonneault}, M., {Pisani}, A.,
+  % {Poleski}, R., {Prada}, F., {Prakash}, A., {Queiroz}, A.~B.~d.~A., {Raddick},
+  % M.~J., {Raichoor}, A., {Barboza Rembold}, S., {Richstein}, H., {Riffel},
+  % R.~A., {Riffel}, R., {Rix}, H.-W., {Robin}, A.~C., {Rockosi}, C.~M.,
+  % {Rodr{\'{\i}}guez-Torres}, S., {Roman-Lopes}, A., {Rom{\'a}n-Z{\'u}{\~n}iga},
+  % C., {Rosado}, M., {Ross}, A.~J., {Rossi}, G., {Ruan}, J., {Ruggeri}, R.,
+  % {Rykoff}, E.~S., {Salazar-Albornoz}, S., {Salvato}, M., {S{\'a}nchez}, A.~G.,
+  % {Aguado}, D.~S., {S{\'a}nchez-Gallego}, J.~R., {Santana}, F.~A., {Santiago},
+  % B.~X., {Sayres}, C., {Schiavon}, R.~P., {da Silva Schimoia}, J., {Schlafly},
+  % E.~F., {Schlegel}, D.~J., {Schneider}, D.~P., {Schultheis}, M., {Schuster},
+  % W.~J., {Schwope}, A., {Seo}, H.-J., {Shao}, Z., {Shen}, S., {Shetrone}, M.,
+  % {Shull}, M., {Simon}, J.~D., {Skinner}, D., {Skrutskie}, M.~F., {Slosar}, A.,
+  % {Smith}, V.~V., {Sobeck}, J.~S., {Sobreira}, F., {Somers}, G., {Souto}, D.,
+  % {Stark}, D.~V., {Stassun}, K., {Stauffer}, F., {Steinmetz}, M.,
+  % {Storchi-Bergmann}, T., {Streblyanska}, A., {Stringfellow}, G.~S.,
+  % {Su{\'a}rez}, G., {Sun}, J., {Suzuki}, N., {Szigeti}, L., {Taghizadeh-Popp},
+  % M., {Tang}, B., {Tao}, C., {Tayar}, J., {Tembe}, M., {Teske}, J., {Thakar},
+  % A.~R., {Thomas}, D., {Thompson}, B.~A., {Tinker}, J.~L., {Tissera}, P.,
+  % {Tojeiro}, R., {Hernandez Toledo}, H., {de la Torre}, S., {Tremonti}, C.,
+  % {Troup}, N.~W., {Valenzuela}, O., {Martinez Valpuesta}, I.,
+  % {Vargas-Gonz{\'a}lez}, J., {Vargas-Maga{\~n}a}, M., {Vazquez}, J.~A.,
+  % {Villanova}, S., {Vivek}, M., {Vogt}, N., {Wake}, D., {Walterbos}, R.,
+  % {Wang}, Y., {Weaver}, B.~A., {Weijmans}, A.-M., {Weinberg}, D.~H.,
+  % {Westfall}, K.~B., {Whelan}, D.~G., {Wild}, V., {Wilson}, J., {Wood-Vasey},
+  % W.~M., {Wylezalek}, D., {Xiao}, T., {Yan}, R., {Yang}, M., {Ybarra}, J.~E.,
+  % {Y{\`e}che}, C., {Zakamska}, N., {Zamora}, O., {Zarrouk}, P., {Zasowski}, G.,
+  % {Zhang}, K., {Zhao}, G.-B., {Zheng}, Z., {Zheng}, Z., {Zhou}, X., {Zhou},
+  % Z.-M., {Zhu}, G.~B., {Zoccali}, M., and {Zou}, H. 
+  2017, 
+  \textit{{Sloan
+   Digital Sky Survey IV: Mapping the Milky Way, Nearby Galaxies, and the
+  Distant Universe}}, \aj, 154, 28.
+\item  {Roig}, B., {Blanton}, M.~R., and {Ross}, N.~P. 2014,
+  \textit{{Unusual Broad-line Mg II Emitters among Luminous Galaxies in the
+  Baryon Oscillation Spectroscopic Survey}}, \apj, 781, 72.
+\item 
+ {Zhu}, G., {Blanton}, M.~R., {Burles}, S.~M., {Coil}, A.~L.,
+  {Cool}, R.~J., {Eisenstein}, D.~J., {Moustakas}, J., {Wong}, K.~C., and
+  {Aird}, J. 2011, \textit{{PRIMUS: Obscured Star Formation on the Red
+  Sequence}}, \apj, 726, 110
+\item {Blanton}, M.~R., {Kazin}, E., {Muna}, D., {Weaver}, B.~A., and
+  {Price-Whelan}, A. 2011, \textit{{Improved Background Subtraction for the
+  Sloan Digital Sky Survey Images}}, \aj, 142, 31.
+\item 
+Blanton, M.~R. and Roweis, S. (2007), {\it $K$-corrections and filter
+transformations in the ultraviolet, optical, and near-infrared}, \aj,
+133, 734
+\end{ditemize}
+
+\vspace{-8pt}
+\subsection*{\normalsize Performance in
+  Prior Research Efforts:}
+\begin{ditemize}\setlength{\itemsep}{0pt}
+\item SDSS-IV Director (2012--2022): successful in leading project
+  through fund-raising, development, and 6.5 years of operations. 
+\item SDSS-III Data Coordinator (2007--2013): successfully led
+  development of data management systems and data releases for
+  SDSS-III.
+\item Freely distributed New York University Value-Added Galaxy
+  Catalog, used in over 1,000 refereed publications (2005--present), and
+  the NASA-Sloan Atlas, used in over 300 refereed publications
+  (2012--present).
+\item Wrote and distributed freely a widely used code to fit stellar
+  population models to galaxy flux observations, known as
+  \texttt{kcorrect}, used in over 1,000 refereed publications
+  (2002--present).
+\end{ditemize}
+
+
+\clearpage
+\section{Current \& Pending Support}\label{sec:support}
+
+\noindent \underline{PI Blanton: Current Support}
+
+\begin{itemize*}
+\item[]{Title: {\em Collaborative Research: CDS\&E: New Image Resampling Techniques for \hspace*{0.1in}MaNGA in the NASA Sloan Atlas}}
+\item[]{Funding Agency: National Science Foundation, Application Number 1909374}
+\item[]{Program officer: Dr. Peter Kurczynski, pkurczyn@nsf.gov, (703) 292-7248}
+\item[]{Requested performance period: 07/15/2019 through 06/30/2022}
+\item[]{Total amount requested: \$261,902}
+\item[]{Time commitment: 1.0 months FTE per year (0.11 person-years)}
+\end{itemize*}
+
+
+\noindent \underline{PI Blanton: Pending Support}
+
+\vspace{18pt}
+
+\clearpage
+\section{Budget Narrative}\label{sec:budget}
+
+
+\noindent {\bf Senior Personnel:}
+The PI is requesting 1.0 month of summer salary for each
+of the 2 years of the project. 
+The PI is responsible for the overall management of the project. The PI will 
+supervise the GRA and undergraduate and will assist in the writing,
+data analysis, and interpretation.
+
+\noindent {\bf Other Personnel:}
+Graduate Research Assistant (GRA): Funds are requested for 2 academic years
+(AY) plus 2 summers. The GRA will develop the software and perform the
+analysis described in the proposal. Undergraduate Research Assistant (UGRA): 
+Funds  are requested for undergraduate research stipends covering two years of
+effort. The UGRA will work with the GRA and assist in the data analysis 
+and data vetting.
+
+\noindent {\bf Fringe Benefits Rate:} 
+The fringe benefits rate is set at 30\% as of 9/1/2020 and applies only to PI salary. {\bf NEED REAL NUMBERS}
+
+\noindent {\bf Capital Equipment:} Funds are requested in Year 1 for 
+dedicated computer  servers with which to perform the analysis (\$5,000 each
+for two Dell PowerEdge R7525 Servers, with 2 16-core processers with 128M 
+of cache, 4 Tb of local disk,  and 64 Gb of memory).
+
+\noindent {\bf Domestic Travel:} 
+Funds are requested for attendance at one domestic conference for 
+the GRA in each year. We assume \$1500 for a 
+4-day conference (\$200 for registration fee, \$500 for airfare, \$150/night 
+for lodging, and \$50/night per diem).
+
+\noindent {\bf Foreign Travel:} 
+Funds are requested for attendance at one foreign conference for 
+the GRA in each year. For each conference we assume \$1500 for a 
+4-day conference (\$200 for registration fee, \$500 for airfare, \$150/night 
+for lodging, and \$50/night per diem).
+
+\noindent {\bf Publications:} We anticipate two 10-page journal articles each 
+year. Based on prior experience with the AAS Journals, the typical 
+publication  cost will be \$1500 per paper in 2021 dollars.
+
+\noindent {\bf Other Direct Costs:}
+Graduate students receive tuition remission charged at 37\% of graduate student salary. {\bf REAL NUMBERS}
+
+\noindent {\bf Indirect Costs:} 
+Senior personnel salaries increase 3.5\% annually, while OTPS costs increase 2.5\% per year. The indirect cost rate negotiated with DHHS, agreement dated October 6, 2021, states a rate of 60.0\% of MTDC as of 9/1/2021 and will increase to 60.5\% as of 9/1/2022 and to 61\% as of 9/1/2023. The MTDC base excludes capital equipment, tuition remission, participant support costs, and subcontracts beyond the first \$25,000. {\bf REAL NUMBERS}
+
+
+\end{document}
+
+
